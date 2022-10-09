@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 fastapi = "*"
 pydantic = {extras = ["email"], version = "*"}
+python-multipart = "*"
 
 [dev-packages]
 uvicorn = {extras = ["standard"], version = "*"}
